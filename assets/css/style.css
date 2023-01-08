@@ -38,11 +38,11 @@ p {
 
 .section {
     height: calc(100vh - 1.44rem);
-
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 /* Main container */
@@ -51,10 +51,8 @@ p {
     background: var(--white);
     border-radius: 2.1rem;
     width: 32rem;
-    /* height: 50rem; */
-
     text-align: center;
-
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
